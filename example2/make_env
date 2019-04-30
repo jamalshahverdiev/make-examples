@@ -1,0 +1,4 @@
+NS=jamalshahverdiev
+VOLUMES = -v /var/run/docker.sock=/var/run/docker.sock
+PORTS = -p 80:80
+ENV = -e USERNAME=someuser -e PASSWORD=somepass
